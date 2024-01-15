@@ -33,6 +33,9 @@ from transformers import pipeline
 pipe = pipeline("text-generation", model="HuggingFaceH4/zephyr-7b-beta",
 torch_dtype=torch.bfloat16, device_map="auto")
 ```
+The device_map='auto' parameter automatically selects the best available device (CUDA/GPU if available, otherwise CPU) for running the model, optimizing performance.
+
+[Link to the Zephyr-7B model on Hugging Face](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
 
 4. Define the Conversation Parameters
 
@@ -54,6 +57,8 @@ prompt = pipe.tokenizer.apply_chat_template(messages, tokenize=False,
 add_generation_prompt=True)
 ```
 
+The pipe.tokenizer.apply_chat_template function prepares the model's prompt based on the conversation parameters. The tokenizer converts text input into a format that the model can understand.
+
 6. Generate the Response from the Model
 
 Finally, this code generates and prints the response from Zephyr-7B based on our prompt. The parameters control the length and creativity of the response.
@@ -63,6 +68,17 @@ outputs = pipe(prompt, max_new_tokens=3, do_sample=True, temperature=0.7,
 top_k=50, top_p=0.95)
 print(outputs[0]["generated_text"])
 ```
+
+This code generates and prints the response from Zephyr-7B. Parameters like max_new_tokens, temperature, top_k, and top_p control the length and creativity of the response.
+
+Example Responses from Zephyr-7B:
+User: "Tell me something interesting about space."
+
+Zephyr-7B: "Did you know that space is completely silent? Without an atmosphere, sound has no medium to travel through!"
+
+User: "Give me a tip for better sleep."
+
+Zephyr-7B: "Maintaining a regular sleep schedule and reducing blue light exposure in the evening can significantly improve sleep quality."
 
 ## Understanding the Code of Zephyr-7B
 
