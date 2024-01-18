@@ -72,13 +72,10 @@ print(outputs[0]["generated_text"])
 This code generates and prints the response from Zephyr-7B. Parameters like max_new_tokens, temperature, top_k, and top_p control the length and creativity of the response.
 
 Example Responses from Zephyr-7B:
-User: "Tell me something interesting about space."
+![Alt text](images/zephyr-7B_answer.png)
 
-Zephyr-7B: "Did you know that space is completely silent? Without an atmosphere, sound has no medium to travel through!"
-
-User: "Give me a tip for better sleep."
-
-Zephyr-7B: "Maintaining a regular sleep schedule and reducing blue light exposure in the evening can significantly improve sleep quality."
+Example Responses from GPT-4:
+![Alt text](images/gpt-4_answer.png)
 
 ## Understanding the Code of Zephyr-7B
 
