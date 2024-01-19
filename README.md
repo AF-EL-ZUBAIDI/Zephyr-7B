@@ -71,11 +71,24 @@ print(outputs[0]["generated_text"])
 
 This code generates and prints the response from Zephyr-7B. Parameters like max_new_tokens, temperature, top_k, and top_p control the length and creativity of the response.
 
-Example Responses from Zephyr-7B:
-![Alt text](images/zephyr-7B_answer.png)
 
-Example Responses from GPT-4:
-![Alt text](images/gpt-4_answer.png)
+### Comparison of Answers Between Zephyr-7B and GPT-4:
+
+**Question:**
+How would you explain the phrase 'It's raining cats and dogs' to someone learning English?
+
+**1. Response from Zephyr-7B:**
+It's raining cats and dogs" is a colloquial phrase used to describe extremely heavy rain. Although it may sound unusual, the expression originated from the idea that heavy rainfall can be so intense that it seems as if small animals like cats and dogs are falling from the sky along with the rain. In reality, of course, this is not the case, and the phrase is simply a way of expressing the severity of the rainfall in a colorful and memorable way.
+
+**2. Response from GPT-4:**
+Thank you for your kind words!
+
+To explain the phrase "It's raining cats and dogs" to someone learning English, I would approach it as follows:
+
+"This phrase is an idiomatic expression in English, which people use to describe a situation where it is raining very heavily. It's a colorful, imaginative way of speaking and is part of the collection of unique expressions in the English language. When someone says 'It's raining cats and dogs,' they don't mean that pets are falling from the sky. Instead, they are using this phrase to emphasize that it is raining a lot, with large drops and great intensity, much like a storm or downpour. It's important to understand that many languages have such expressions, where the literal meaning is different from the intended meaning, and in this case, it vividly describes the severity of the rain."
+
+By giving this explanation, the learner can understand that the phrase is metaphorical, not literal, and can appreciate the expressive nature of idiomatic language.
+
 
 ## Understanding the Code of Zephyr-7B
 
