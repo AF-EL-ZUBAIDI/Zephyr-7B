@@ -7,7 +7,7 @@ In the evolving world of Language Learning Models (LLMs), a new player has emerg
 ## Benefits of Zephyr-7B
 
 #### 1. Accessibility and Ease of Use
-Zephyr-7B stands out for its accessibility. With 7 billion parameters, it runs smoothly on standard laptops, making it perfect for those without high-end computing resources.
+Zephyr-7B stands out for its accessibility. With 7 billion parameters, it operates effectively on machines equipped with GPUs such as the NVIDIA GTX 1080, ensuring it is suitable for users who may not have the most powerful computing resources at their disposal.
 
 #### 2. Enhanced Accuracy and Versatility
 Zephyr-7B matches GPT-4 in accuracy for writing and role-playing tasks, showcasing its advanced capabilities. This level of precision opens up new avenues for creative and professional applications.
